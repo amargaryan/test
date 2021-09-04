@@ -38,6 +38,7 @@ function isMagic(square) {
     return true;
   }
 //  Shoxer
+
 console.log(isMagic([[2,7,6],[9,5,1],[4,3,8]]))
 function isMagic(arr){
   if (arr.length===0){
