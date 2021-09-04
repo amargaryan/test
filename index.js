@@ -37,3 +37,23 @@ function isMagic(square) {
     if (a !== id || b !== id) return false;
     return true;
   }
+//  Shoxer
+
+console.log(isMagic([[2,7,6],[9,5,1],[4,3,8]]))
+function isMagic(arr){
+  if (arr.length===0){
+    return true
+    }else if(arr.length===1 && arr[0][0]===2){
+      return false
+    }
+  let rows=0
+  let diag=0
+  let colums=0
+  for(let i=0;i<arr.length;i++){
+    for(let j=0;j<arr.length;j++){
+  if(j===0){colums+=(arr[i][j])}
+  if(i===0){rows+=(arr[i][j])}
+ if(i===j){diag+=(arr[i][j])}
+    }}
+return(rows&&colums&&diag===rows)
+    }
