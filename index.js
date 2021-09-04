@@ -37,3 +37,5 @@ function isMagic(square) {
     if (a !== id || b !== id) return false;
     return true;
   }
+
+  
