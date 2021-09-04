@@ -1,3 +1,4 @@
+
 function isMagic(square) {
     let result = true
     const rowSum = (arr) => arr.reduce((sum, item) => sum + item);
@@ -23,6 +24,3 @@ function isMagic(square) {
 }
 
 console.log(isMagic([[1, 2], [3, 4]]))
-
-
-
